@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Welcome to FizzBuzz")
+	fmt.Println("Welcome to FizzBuzz, this is a change")
 		for i :=1; i<=100; i++ {
 			if i %3 == 0 && i %5 == 0 {
 				fmt.Println("FizzBuzz")
